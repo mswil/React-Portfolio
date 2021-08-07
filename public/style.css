@@ -65,8 +65,13 @@
 	color: var(--light-second);
 }
 
+header {
+    box-shadow: 0px 0px 20px lightgrey;
+}
+
 footer {
 	height: 5em;
+    box-shadow: 0px 0px 20px lightgrey;
 }
 
 .icon {
