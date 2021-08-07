@@ -12,7 +12,7 @@ function Header(props) {
     return (
         <header className="flex-row px-1 navbar navbar-light bg-light px-3">
             <h2>
-                <a className="navbar-brand" href="/">Molly Wilson</a>
+                <span className="navbar-brand nav-link" onClick={()=> setNavState('About')}>Molly Wilson</span>
             </h2>
             <Nav
                 navStates={navStates}
