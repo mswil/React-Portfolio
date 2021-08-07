@@ -10,9 +10,9 @@ function Header(props) {
     } = props;
 
     return (
-        <header className="flex-row px-1 navbar navbar-light bg-light px-3">
+        <header className="flex-row px-1 navbar navbar-light px-3 fw-light">
             <h2>
-                <span className="navbar-brand nav-link" onClick={()=> setNavState('About')}>Molly Wilson</span>
+                <span className="navbar-brand nav-link fw-light" onClick={()=> setNavState('About')}>Molly Wilson</span>
             </h2>
             <Nav
                 navStates={navStates}

@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 
 import Header from './components/Header';
-// import About from './components/About'
+import About from './components/About'
 import Gallery from './components/Gallery';
 // import Contact from './components/Contact';
 // import Resume from './components/Resume'
@@ -22,8 +22,8 @@ function App() {
 
   const renderPage = () => {
     switch (currentNavState) {
-      // case 'About':
-      //   return <About></About>
+      case 'About':
+        return <About setNavState={setNavState}></About>
       case 'Portfolio':
         return <Gallery></Gallery>
       // case 'Contact':
@@ -31,7 +31,7 @@ function App() {
       // case 'Resume':
       //   return <Resume></Resume>
       default:
-        // return <About></About>
+        // return <About setNavStat={setNavState}></About>
     }
   }
 
