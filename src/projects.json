@@ -1,14 +1,37 @@
 [
 	{
 		"title": "Run Buddy",
-		"image": "link",
-		"demoLink": "dlink",
-		"gitHubLink": "glink"
+		"image": "./assets/images/screenshots/run-buddy.png",
+        "tech": "HTML / CSS",
+		"demoLink": "https://mswil.github.io/run-buddy/",
+		"gitHubLink": "https://github.com/mswil/run-buddy"
 	},
     {
-		"title": "Run Buddy2",
-		"image": "link2",
-		"demoLink": "dlink2",
-		"gitHubLink": "glink2"
-	}
+		"title": "Fanpage",
+		"image": "./assets/images/screenshots/fanpage.png",
+        "tech": "HTML / CSS / JavaScript",
+        "demoLink": "https://mswil.github.io/fanpage/",
+        "gitHubLink": "https://github.com/mswil/fanpage"
+	},
+    {
+        "title": "Horiseon",
+		"image": "./assets/images/screenshots/horiseon.png",
+        "tech": "HTML / CSS",
+        "demoLink": "https://mswil.github.io/Bootcamp-Horiseon/Develop/index.html",
+        "gitHubLink": "https://github.com/mswil/Bootcamp-Horiseon"
+    },
+    {
+        "title": "Movie Site",
+		"image": "./assets/images/screenshots/movie-site.png",
+        "tech": "Omdb API / Bootstrap / jQuery others",
+        "demoLink": "https://mswil.github.io/movie-site/",
+        "gitHubLink": "https://github.com/mswil/movie-site"
+    },
+    {
+        "title": "Code Quizer",
+		"image": "./assets/images/screenshots/code-quizer.png",
+        "tech": "JavaScript",
+        "demoLink": "https://mswil.github.io/Code-Quizer/",
+        "gitHubLink": "https://github.com/mswil/Code-Quizer"
+    }
 ]
