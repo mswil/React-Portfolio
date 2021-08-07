@@ -13,15 +13,15 @@ function Nav(props) {
     }, [currentNavState]);
 
     return (
-        <ul className="flex-row">
+        <ul className="flex-row navbar-nav">
 
             {navStates.map((navlink) => (
                 <li
-                    className={`mx-1 
+                    className={`mx-1 nav-item
                             ${currentNavState === navlink && 'navActive'}`}
                     key={navlink}
                 >
-                    <span onClick={() => {
+                    <span className="nav-link" onClick={() => {
                         console.log(navlink)
                         setNavState(navlink)}}>
                         {navlink}
