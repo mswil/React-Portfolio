@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Gallery from './components/Gallery';
 // import Contact from './components/Contact';
 // import Resume from './components/Resume'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <main>
           {renderPage()}
         </main>
+        <Footer></Footer>
       </div>
   );
 }
