@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About'
 import Gallery from './components/Gallery';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 // import Resume from './components/Resume'
 import Footer from './components/Footer';
 
@@ -26,8 +26,8 @@ function App() {
         return <About setNavState={setNavState}></About>
       case 'Portfolio':
         return <Gallery></Gallery>
-      // case 'Contact':
-      //   return <Contact></Contact>
+      case 'Contact':
+        return <Contact></Contact>
       // case 'Resume':
       //   return <Resume></Resume>
       default:
@@ -36,7 +36,7 @@ function App() {
   }
 
   return (
-      <div>
+      <>
         <Header
           navStates={navStates}
           currentNavState={currentNavState}
@@ -46,7 +46,7 @@ function App() {
           {renderPage()}
         </main>
         <Footer></Footer>
-      </div>
+      </>
   );
 }
 
