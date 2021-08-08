@@ -5,7 +5,7 @@ import Header from './components/Header';
 import About from './components/About'
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
-// import Resume from './components/Resume'
+import Resume from './components/Resume'
 import Footer from './components/Footer';
 
 
@@ -28,10 +28,10 @@ function App() {
         return <Gallery></Gallery>
       case 'Contact':
         return <Contact></Contact>
-      // case 'Resume':
-      //   return <Resume></Resume>
+      case 'Resume':
+        return <Resume></Resume>
       default:
-        // return <About setNavStat={setNavState}></About>
+        return <About setNavStat={setNavState}></About>
     }
   }
 
