@@ -33,5 +33,12 @@
         "tech": "JavaScript",
         "demoLink": "https://mswil.github.io/Code-Quizer/",
         "gitHubLink": "https://github.com/mswil/Code-Quizer"
+    },
+    {
+        "title": "Weather Dashboard",
+		"image": "./assets/images/screenshots/weather-dashboard.png",
+        "tech": "Open Weather Map / Bootstrap / jQuery",
+        "demoLink": "https://mswil.github.io/Weather-Dashboard/",
+        "gitHubLink": "https://github.com/mswil/Weather-Dashboard"
     }
 ]
