@@ -6,6 +6,10 @@
 	--light: #e9ecef;
 }
 
+.error {
+	color: red
+
+}
 body {
 	width: 100%;
 }
