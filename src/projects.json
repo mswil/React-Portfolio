@@ -1,4 +1,11 @@
 [
+    {
+        "title": "SkinDeep",
+        "image": "./assets/images/screenshots/skindeep.png",
+        "tech": "React / GraphQL / MongoDB",
+        "demoLink": "https://mswil-skindeep.herokuapp.com/",
+        "gitHubLink": "https://github.com/JohnWDevine85/Group6_Skindeep"
+    },
 	{
 		"title": "Run Buddy",
 		"image": "./assets/images/screenshots/run-buddy.png",
